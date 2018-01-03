@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* defines the default font attributes for the site */
+
+body {
+	font-family: 'Lato', sans-serif;
+	color:#000;
+	font-size: 15px;
+	line-height:150%;
+	font-weight:400;
+	text-rendering: optimizeLegibility !important;
+	overflow-x: hidden;
+	}
+.grid .row{
+    margin: 30px 0;
+}
+.schedule tr, .schedule td{
+    border: none !important
+}
+.color-line{
+    background: #006032 !important;
+    color: white;
+}
+.pricing{
+    background:#006032; 
+    padding: 30px 0
+}
+.price-table{
+    background: white
+}
+.row div{
+    text-align: center;
+}
+.row div h2{
+    color: #d4df23;
+    margin-bottom: 25px
+}
+table{
+    text-align: left
+            
+    }
+.bold-tr{
+    font-weight: bold;
+    font-size: 16px;
+    color: #d4df23
+}
+.sponsor button{
+    font-size: 22px;
+    letter-spacing: 2px;
+    padding: 5px 20px
+}
+.sponsor-logos{
+    margin-top: 40px
+}
+.sponsor a{
+    margin: 20px
+}
+.sponsor img{
+    width: 180px;
+    height: auto
+}
